@@ -50,7 +50,7 @@ jobs:
           file: ./Dockerfile
           push: true
           no-cache: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/AppcenterServerStudy
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/appcenterserverstudy
 
       #checkout EC2 접속
       - name: Credentials AWS
