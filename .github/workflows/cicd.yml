@@ -65,7 +65,7 @@ jobs:
         with:
           host: ${{ secrets.AWS_EC2_HOST }}
           username: ${{ secrets.AWS_EC2_USERNAME }}
-          key: ${{ secrets.AWS_EC2_SECRET_KEY }}
+          key: ${{ secrets.AWS_EC2_SECRETKEY }}
           script_stop: true
           script: |
             sh deploy.sh
